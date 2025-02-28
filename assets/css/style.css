@@ -180,6 +180,10 @@ button[type="submit"]:active {
     .lr-toggle-form {
         padding: 12px 20px;
     }
+
+    .login-page-container {
+        padding: 15px;
+    }
 }
 
 /* Animation effects */
@@ -228,10 +232,4 @@ body {
 
 .lr-form-container {
     margin: 0 auto;
-}
-
-@media (max-width: 480px) {
-    .login-page-container {
-        padding: 15px;
-    }
 }

@@ -23,6 +23,51 @@ if (!defined('ABSPATH')) {
 define('LR_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('LR_PLUGIN_URL', plugin_dir_url(__FILE__));
 
+// die(plugins_url());
+// die(plugin_dir_url(__FILE__));
+// die(plugin_dir_path(__FILE__));
+// die(plugin_basename(__FILE__));
+
+
+// die(get_template_directory_uri());
+// die(get_stylesheet_directory_uri());
+// die(get_stylesheet_uri());
+// die(get_theme_root_uri());
+// die(get_theme_root());
+// die(get_theme_roots());
+// die(get_stylesheet_directory());
+// die(get_template_directory());
+
+// die(home_url());
+// die(get_home_path());
+
+// die(admin_url());
+// die(site_url());
+// die(content_url());
+// die(includes_url());
+// die(wp_upload_dir());
+
+// die(get_admin_url());
+// die(get_home_url());
+// die(get_site_url());
+// die(network_admin_url());
+// die(network_site_url());
+// die(network_home_url());
+
+// die(WP_CONTENT_DIR);
+// die(WP_CONTENT_URL);
+// die(WP_PLUGIN_DIR);
+// die(WP_PLUGIN_URL);
+// die(UPLOADS);
+
+// global $wpdb;
+// echo "<pre>";
+// print_r($wpdb);
+// die;
+
+// $id = get_current_user_id();
+// die($id);
+
 // Enqueue scripts and styles
 /*
 function lr_enqueue_scripts() {
